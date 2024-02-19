@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AppProspecto.DALL\AppProspecto.DALL.csproj" />
+    <ProjectReference Include="..\AppProspecto.DLL\AppProspecto.DLL.csproj" />
+    <ProjectReference Include="..\AppProspecto.UTILITY\AppProspecto.UTILITY.csproj" />
+  </ItemGroup>
+
+</Project>
